@@ -2,6 +2,13 @@ package com.softwaretidbits.kotlin
 
 import kotlin.math.roundToInt
 
+/**
+ *
+ * Kotlin try/catch as expression.
+ *
+ * softwaretidbits.com
+ *
+ */
 class UsingWhen {
 
     fun nucleotideName(code: String?): String = when (code) {
