@@ -26,11 +26,12 @@ class TryCatch {
 fun main() {
 
     val app = TryCatch()
-    val myConstant = "1000"
-    val numberReturned = app.usingTryCatchAsExpression(myConstant)
-    println(numberReturned)
 
-    val myConstantNotNumber = "abc123"
-    val defaultNumberReturned = app.usingTryCatchAsExpression(myConstantNotNumber)
-    println(defaultNumberReturned)
+    val firstConstant = "1000"
+    val firstReturn = app.usingTryCatchAsExpression(firstConstant)
+    println("First Run: $firstReturn")
+
+    val secondConstant = "abc123"
+    val secondReturn = app.usingTryCatchAsExpression(secondConstant)
+    println("Second Run: $secondReturn")
 }
